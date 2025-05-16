@@ -46,15 +46,35 @@ function App() {
         <section>
           <Benefits />
         </section>
-        <section>
+
+        {/* Section Four */}
+
+        <section className='sectionFAQ'>
           <div>
             <h3 className='titleFAQ'>Preguntas mas frecuentes</h3>
           </div>
           <CustomAccordion />
         </section>
+
+        {/* Section Five */}
+
+        <section className='secctionCTA'>
+          <div className='cnt-Cta'>
+            <h4 className='titleCTA'>¿Quieres ser distribuidor?</h4>
+            <a href="tel:+1234567890" className="btn-CTA">¡Llámanos!</a>
+          </div>
+        </section>
+
+        {/* Section Five */}
+
+        <footer>
+          <div className='cnt-Footer'>
+            <p className='textFooter'>Copyright @ 2025 BPL1FE. All right reserved.</p>
+          </div>
+        </footer>
       </main>
     </>
   )
-}
+};
 
 export default App

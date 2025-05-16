@@ -146,6 +146,10 @@
   align-items: center;
 }
 
+.sectionFAQ {
+  padding-bottom: 70px;
+}
+
 .titleFAQ {
   color: #1D2B64;
   padding-top: 30px;
@@ -165,3 +169,76 @@
   background: #FF8C00;
   margin: 1rem auto 0;
 }
+
+.secctionCTA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9eeff;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.cnt-Cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 60px;
+}
+
+.titleCTA {
+  color: #1D2B64;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+  padding: 70px 0 40px;
+}
+
+.titleCTA::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #FF8C00;
+  margin: 1rem auto 0;
+}
+
+.btn-CTA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  background-color: #FFA500;
+  border: none;
+  height: 45px;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cnt-Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.textFooter {
+  border-top: 1px solid rgb(214, 214, 214);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 20px;
+}
+

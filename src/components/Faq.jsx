@@ -12,7 +12,7 @@ const CustomAccordion = () => {
     const faqData = [
         {
             question: "1. ¿Qué es BPL1FE?",
-            answer: "It's more than a drink—it's your go-to solution for living life to the fullest. Packed with 100% natural ingredients, Full Ready helps you enjoy your nights and still wake up ready to conquer your day. It's not just a product; it's the balance you've been looking for.",
+            answer: "Una molécula avanzada que potencia el metabolismo y el bienestar digestivo mediante acción celular innovadora.",
         },
         {
             question: "2. ¿Cómo actúa en el organismo?",
@@ -24,7 +24,7 @@ const CustomAccordion = () => {
         },
         {
             question: "4. ¿Cómo tomar BPL1FE para ver resultados?",
-            answer: "Because you deserve a product that works as hard as you play. Full Ready is scientifically designed to help your body recover while you enjoy yourself. No more sacrificing your mornings for your nights.",
+            answer: "1 cápsula diaria en ayunas, idealmente acompañada de un estilo de vida activo.",
         },
         {
             question: "5. ¿Es seguro?",
