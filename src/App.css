@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+.cnt-sectionOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9eeff;
+  background-image: url(./assets/ondas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cnt-h1p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.titleH1 {
+  color: #1D2B64;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+}
+
+.textTitle {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  padding: 30px 0 40px;
+  line-height: 1.1;
+}
+
+.btn-Title {
+  color: #ffffff;
+  background-color: #FFA500;
+  border: none;
+  height: 45px;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.bpl1Hero {
+  top: -65px;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.cnt-img,
+.imgCaja {
+  height: 400px;
+}
+
+.titleH2 {
+  color: #1D2B64;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+}
+
+.textH2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  padding: 30px 0 40px;
+  line-height: 1.2;
+}
+
+.imgCaja {
+  position: relative;
+  top: -55px;
+}
+
+.cnt-sectionTwo {
+  padding: 10px;
+  background-image: url(./assets/ondas.png);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.cnt-sectionTwo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(./assets/ondas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scaleX(-1); 
+    z-index: -1; 
+}
