@@ -1,0 +1,72 @@
+.accordion-container {
+    max-width: 380px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.accordion-item {
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 1px solid orange;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #f8f9fa;
+}
+
+.accordion-header.active {
+    background-color: #f1f1f1;
+}
+
+.accordion-header-content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.accordion-question {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.accordion-toggle {
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    color: #666;
+    margin-left: 10px;
+}
+
+.accordion-header.active .accordion-toggle {
+    color: #ff8c00;
+}
+
+.accordion-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #fff;
+}
+
+.accordion-content p {
+    font-family: "Open Sans", sans-serif;
+    color: #666;
+    line-height: 1.2;
+    padding: 15px 10px 15px;
+    font-size: 1rem;
+}
+
+/* Estilos para los pasos resaltados */
+.accordion-content strong {
+    color: #ff8c00;
+    font-weight: 600;
+}

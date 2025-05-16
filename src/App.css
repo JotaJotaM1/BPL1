@@ -28,13 +28,14 @@
   font-family: "Montserrat", sans-serif;
   line-height: 1.1;
 }
-.titleH1::after{
-    content: '';
-    display: block;
-    width: 100px;
-    height: 4px;
-    background: #FF8C00;
-    margin: 1rem auto 0;
+
+.titleH1::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #FF8C00;
+  margin: 1rem auto 0;
 }
 
 .textTitle {
@@ -79,13 +80,14 @@
   font-family: "Montserrat", sans-serif;
   line-height: 1.1;
 }
-.titleH2::after{
-    content: '';
-    display: block;
-    width: 80px;
-    height: 4px;
-    background: #FF8C00;
-    margin: 1rem auto 0;
+
+.titleH2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #FF8C00;
+  margin: 1rem auto 0;
 }
 
 .textH2 {
@@ -110,23 +112,24 @@
 }
 
 .cnt-sectionTwo::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url(./assets/ondas.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: scaleX(-1); 
-    z-index: -1; 
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(./assets/ondas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  z-index: -1;
 }
 
-.cnt-Bene{
+.cnt-Bene {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.titleBeneH2{
+
+.titleBeneH2 {
   color: #1D2B64;
   padding-top: 30px;
   text-align: center;
@@ -135,10 +138,30 @@
   font-family: "Montserrat", sans-serif;
   line-height: 1.1;
 }
-.cnt-titleTextBene{
+
+.cnt-titleTextBene {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.titleFAQ {
+  color: #1D2B64;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+  padding: 70px 0 40px;
+}
+
+.titleFAQ::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #FF8C00;
+  margin: 1rem auto 0;
+}

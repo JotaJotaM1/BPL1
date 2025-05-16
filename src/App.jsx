@@ -5,6 +5,7 @@ import cajaProducto from './assets/caja.png';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faUtensils, faChartLine, faHeartbeat, faShieldAlt, faMale, faFemale } from '@fortawesome/free-solid-svg-icons';
 import Benefits from './components/benefices';
+import CustomAccordion from './components/Faq'
 
 // Añade los iconos que usarás a la biblioteca
 library.add(faUtensils, faChartLine, faHeartbeat, faShieldAlt, faMale, faFemale);
@@ -44,6 +45,12 @@ function App() {
 
         <section>
           <Benefits />
+        </section>
+        <section>
+          <div>
+            <h3 className='titleFAQ'>Preguntas mas frecuentes</h3>
+          </div>
+          <CustomAccordion />
         </section>
       </main>
     </>
