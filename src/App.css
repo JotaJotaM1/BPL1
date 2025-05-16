@@ -28,6 +28,14 @@
   font-family: "Montserrat", sans-serif;
   line-height: 1.1;
 }
+.titleH1::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #FF8C00;
+    margin: 1rem auto 0;
+}
 
 .textTitle {
   text-align: center;
@@ -71,6 +79,14 @@
   font-family: "Montserrat", sans-serif;
   line-height: 1.1;
 }
+.titleH2::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #FF8C00;
+    margin: 1rem auto 0;
+}
 
 .textH2 {
   text-align: center;
@@ -103,3 +119,26 @@
     transform: scaleX(-1); 
     z-index: -1; 
 }
+
+.cnt-Bene{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleBeneH2{
+  color: #1D2B64;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+}
+.cnt-titleTextBene{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -2,6 +2,12 @@ import './App.css';
 import './reset.css';
 import bpl1Hero from './assets/bpl1Hero.png';
 import cajaProducto from './assets/caja.png';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faUtensils, faChartLine, faHeartbeat, faShieldAlt, faMale, faFemale } from '@fortawesome/free-solid-svg-icons';
+import Benefits from './components/benefices';
+
+// Añade los iconos que usarás a la biblioteca
+library.add(faUtensils, faChartLine, faHeartbeat, faShieldAlt, faMale, faFemale);
 
 function App() {
 
@@ -32,6 +38,12 @@ function App() {
           <div>
             <img className='imgCaja' src={cajaProducto} ></img>
           </div>
+        </section>
+
+        {/* Section Three */}
+
+        <section>
+          <Benefits />
         </section>
       </main>
     </>
