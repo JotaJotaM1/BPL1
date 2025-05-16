@@ -98,6 +98,14 @@
   line-height: 1.2;
 }
 
+.cnt-imgCaja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
 .imgCaja {
   position: relative;
   top: -55px;
@@ -152,7 +160,6 @@
 
 .titleFAQ {
   color: #1D2B64;
-  padding-top: 30px;
   text-align: center;
   font-weight: bold;
   font-size: 38px;
@@ -190,7 +197,6 @@
 
 .titleCTA {
   color: #1D2B64;
-  padding-top: 30px;
   text-align: center;
   font-weight: bold;
   font-size: 38px;
@@ -242,3 +248,52 @@
   padding-top: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .titleH1 {
+    padding: 30px 40px 30px;
+    line-height: 1.1;
+  }
+
+  .textTitle {
+    padding: 30px 120px 40px;
+    line-height: 1.6;
+  }
+
+  .textH2 {
+    padding: 30px 90px 40px;
+    line-height: 1.6;
+  }
+
+  .titleFAQ {
+    padding: 70px 125px 40px;
+  }
+
+  .titleCTA {
+    padding: 70px 90px 40px;
+  }
+
+  .secctionCTA {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .titleH1 {
+    max-width: 600px;
+  }
+
+  .textTitle {
+    max-width: 530px;
+  }
+
+  .textH2 {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

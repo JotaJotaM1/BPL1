@@ -1,7 +1,8 @@
 .accordion-container {
-    max-width: 380px;
+    max-width: 500px;
     margin: 0 auto;
     font-family: 'Arial', sans-serif;
+    padding: 10px;
 }
 
 .accordion-item {
@@ -69,4 +70,15 @@
 .accordion-content strong {
     color: #ff8c00;
     font-weight: 600;
+}
+@media (min-width: 768px) {
+    .accordion-container {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .accordion-container {
+        max-width: 700px;
+    }
 }

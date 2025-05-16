@@ -36,7 +36,7 @@ function App() {
             <h2 className='titleH2'>¿Qué es BPL1?</h2>
             <p className='textH2'>BPL1 es un suplemento probiótico con Bifidobacterium lactis BPL1, diseñado para apoyar el equilibrio intestinal, contribuir a la salud metabólica y mejorar el bienestar general. Ideal para quienes buscan una solución fácil, efectiva y respaldada científicamente.</p>
           </div>
-          <div>
+          <div className='cnt-imgCaja'>
             <img className='imgCaja' src={cajaProducto} ></img>
           </div>
         </section>
@@ -51,7 +51,7 @@ function App() {
 
         <section className='sectionFAQ'>
           <div>
-            <h3 className='titleFAQ'>Preguntas mas frecuentes</h3>
+            <h3 className='titleFAQ'>Preguntas más frecuentes</h3>
           </div>
           <CustomAccordion />
         </section>
@@ -61,7 +61,7 @@ function App() {
         <section className='secctionCTA'>
           <div className='cnt-Cta'>
             <h4 className='titleCTA'>¿Quieres ser distribuidor?</h4>
-            <a href="tel:+1234567890" className="btn-CTA">¡Llámanos!</a>
+            <a href="tel:+573208030913" className="btn-CTA">¡Llámanos!</a>
           </div>
         </section>
 

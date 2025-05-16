@@ -69,12 +69,21 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .benefits-grid {
-        grid-template-columns: 1fr;
-    }
-
+@media (min-width: 768px) {
     .benefit-card {
         padding: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .benefit-description {
+        padding: 15px 10px 25px;
+    }
+
+    .benefits-grid {
+        margin: 0 auto;
+        max-width: 900px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
     }
 }
