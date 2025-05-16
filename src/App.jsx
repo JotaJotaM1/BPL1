@@ -2,10 +2,13 @@ import './App.css';
 import './reset.css';
 import bpl1Hero from './assets/bpl1Hero.png';
 import cajaProducto from './assets/caja.png';
+import logo1 from './assets/logo1.png';
+import logo2 from './assets/logo2.png';
+import logo3 from './assets/logo3.png';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faUtensils, faChartLine, faHeartbeat, faShieldAlt, faMale, faFemale } from '@fortawesome/free-solid-svg-icons';
 import Benefits from './components/benefices';
-import CustomAccordion from './components/Faq'
+import CustomAccordion from './components/Faq';
 
 // Añade los iconos que usarás a la biblioteca
 library.add(faUtensils, faChartLine, faHeartbeat, faShieldAlt, faMale, faFemale);
@@ -49,6 +52,16 @@ function App() {
 
         {/* Section Four */}
 
+        <section className='sectionLogos'>
+          <div className='cnt-imgLogo'>
+            <img className="imgLogo" src={logo1}></img>
+            <img className="imgLogo" src={logo2}></img>
+            <img className="imgLogo" src={logo3}></img>
+          </div>
+        </section>
+
+        {/* Section Five */}
+
         <section className='sectionFAQ'>
           <div>
             <h3 className='titleFAQ'>Preguntas más frecuentes</h3>
@@ -56,7 +69,7 @@ function App() {
           <CustomAccordion />
         </section>
 
-        {/* Section Five */}
+        {/* Section Six */}
 
         <section className='secctionCTA'>
           <div className='cnt-Cta'>
@@ -65,7 +78,7 @@ function App() {
           </div>
         </section>
 
-        {/* Section Five */}
+        {/* Section Seven */}
 
         <footer>
           <div className='cnt-Footer'>
